@@ -49,17 +49,17 @@ code-elevate-processador-dados-transporte/
 ├── requirements.txt           # Dependências
 ├── utils/
 │   ├── __init__.py
-│   ├── extrator.py           # Extração dos dados
-│   ├── tratamento.py         # Tratamento dos dados
-│   └── carga.py              # Carregamento daos resultados
+│   ├── carga.py               # Extração dos dados
+│   ├── extrator.py            # Tratamento dos dados
+│   └── tratamento.py          # Carregamento daos resultados
 ├── tests/
 │   ├── __init__.py
-│   ├── test_data_loader.py
-│   ├── test_data_processor.py
-│   └── test_data_exporter.py
+│   ├── test_carga.py
+│   ├── test_extrator.py
+│   └── test_tratamento.py
 ├── data/
-│   ├── in/                   # Coloque aqui o info_transportes.csv
-│   └── out/                  # Arquivo de saída será gerado aqui
+│   ├── in/                    # Coloque aqui o info_transportes.csv
+│   └── out/                   # Arquivo de saída será gerado aqui
 └── README.md
 ```
 
