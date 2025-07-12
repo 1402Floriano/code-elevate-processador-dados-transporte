@@ -1,0 +1,12 @@
+[
+  "tests/test_carga.py::TesteCarga::teste_carga_arquivo_vazio",
+  "tests/test_carga.py::TesteCarga::teste_carga_dados_sucesso",
+  "tests/test_carga.py::TesteCarga::teste_criar_diretorio",
+  "tests/test_extrator.py::TesteExtrator::teste_arquivo_in_nao_existe",
+  "tests/test_extrator.py::TesteExtrator::teste_coluna_nao_existe",
+  "tests/test_extrator.py::TesteExtrator::teste_extracao_dados_sucesso",
+  "tests/test_tratamento.py::TestDataProcessor::teste_agregar_base_por_data",
+  "tests/test_tratamento.py::TestDataProcessor::teste_converter_string_para_data",
+  "tests/test_tratamento.py::TestDataProcessor::teste_falha_converter_string_para_data",
+  "tests/test_tratamento.py::TestDataProcessor::teste_processamento_dados_sucesso"
+]
